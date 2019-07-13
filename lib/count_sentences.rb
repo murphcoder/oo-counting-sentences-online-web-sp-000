@@ -18,6 +18,6 @@ class String
     sentences = []
     self.split(/[.?!]/) = sentences
     sentences.reject!(empty)
-    
+    sentences.count
   end
 end
